@@ -1,7 +1,8 @@
-import clickCounter from  './components/counterClick/index'
+import ClickCounter from '../src/components/counterClick/index'
+
 import './App.css'
 
 
-const App= () => <clickCounter />
+const App= () => <ClickCounter />
 
-export default 'App'
+export default App
